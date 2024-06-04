@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.Datos", "Zapateria.Datos\Zapateria.Datos.csproj", "{45FEBE80-9750-46FB-82DD-DBC6643E670B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.Entidades", "Zapateria.Entidades\Zapateria.Entidades.csproj", "{15E915DC-825D-405C-89DC-C1F889ADBE7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45FEBE80-9750-46FB-82DD-DBC6643E670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FEBE80-9750-46FB-82DD-DBC6643E670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FEBE80-9750-46FB-82DD-DBC6643E670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FEBE80-9750-46FB-82DD-DBC6643E670B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00BCF0F7-8C76-43E0-815B-48C4881A0F03}
+	EndGlobalSection
+EndGlobal
