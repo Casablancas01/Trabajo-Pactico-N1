@@ -9,8 +9,7 @@ namespace Zapateria.Entidades
     public class Color
     {
         public int ColorId { get; set; }
-        public int ColorName { get; set; }
+        public string ColorName { get; set; } // Cambiado de int a string
         public ICollection<Shoe> Shoes { get; set; }
-
     }
 }

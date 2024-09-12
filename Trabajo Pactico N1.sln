@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.Datos", "Zapateria.Datos\Zapateria.Datos.csproj", "{45FEBE80-9750-46FB-82DD-DBC6643E670B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.Entidades", "Zapateria.Entidades\Zapateria.Entidades.csproj", "{15E915DC-825D-405C-89DC-C1F889ADBE7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zapateria.Entidades", "Zapateria.Entidades\Zapateria.Entidades.csproj", "{15E915DC-825D-405C-89DC-C1F889ADBE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPIntegradorMVC", "TPIntegradorMVC\TPIntegradorMVC.csproj", "{3E2F77A1-2D19-41F5-88FA-5200307F47FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E915DC-825D-405C-89DC-C1F889ADBE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2F77A1-2D19-41F5-88FA-5200307F47FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2F77A1-2D19-41F5-88FA-5200307F47FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2F77A1-2D19-41F5-88FA-5200307F47FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2F77A1-2D19-41F5-88FA-5200307F47FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

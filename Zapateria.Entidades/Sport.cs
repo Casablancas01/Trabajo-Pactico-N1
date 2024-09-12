@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Zapateria.Entidades
 {
-    public  class Sport
+    public class Sport
     {
-        public int SportsId { get; set; }
-        public string SportsName { get; set;}
+        public int SportId { get; set; }
+        public string SportName { get; set; }
         public ICollection<Shoe> Shoes { get; set; }
     }
 }
