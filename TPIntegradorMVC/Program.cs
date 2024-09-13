@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Zapateria.Datos;
 using Zapateria.Datos.Interfaces;
+using Zapateria.Servicios.Interefaces;
+using Zapateria.Servicios.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddDbContext<ZapateriaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); // Registrar el UnitOfWork
+builder.Services.AddScoped<IBrandService, BrandService>();
 
 
 var app = builder.Build();
